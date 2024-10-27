@@ -25,10 +25,7 @@ speedtest-cli
 ## Quick Start
 
 1. Download GPX Tracker from the App Store on your mobile device
-2. Install required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install required Python packages
 3. Start GPS tracking in GPX Tracker app
 4. Run the network logger:
    ```bash
@@ -44,7 +41,6 @@ speedtest-cli
 wifi_mapper/
 ├── logger.py           # Network performance data collection script
 ├── analysis.ipynb      # Jupyter notebook for data analysis and visualization
-├── requirements.txt    # Python dependencies
 ```
 
 ## Logger Features
@@ -68,7 +64,7 @@ The analysis notebook (`analysis.ipynb`) provides:
 3. Cover the area in a grid pattern when possible
 4. Make sure to visit areas where you expect different signal strengths
 5. Let the script run for at least a few minutes in each location
-6. Keep your device at a consistent height during collection
+
 
 ## Visualization Examples
 
